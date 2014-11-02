@@ -1,0 +1,77 @@
+body {
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 34px;
+	background-color: black;
+	color: white;
+}
+div.wrapper {
+  position: absolute;
+  top: 131px;
+  left: 30px;
+  width: 1200px;
+  height: 40px;
+  overflow: hidden;
+}
+div.display {
+  position: absolute;
+  display: none;
+  background: black;
+  bottom: 0;
+  width: 1200px;
+  text-align: center;
+}
+div.display.coloured {
+  background-image: url('multicolour-background.png');
+  background-repeat: no-repeat;
+  background-size: 1200px 40px;
+  background-position: 0 0;
+  color: black;
+  font-weight: bold;
+  width: 1200px;
+  height: 40px;
+}
+div.coloured .line {
+  color: transparent;
+  background-color: black;
+}
+div.display.multiline {
+  width: 1200px;
+  height: 40px;
+  overflow: hidden;
+  background: transparent;
+}
+div.line {
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  height: 13px;
+  white-space: nowrap;
+  background: transparent;
+}
+span.fact {
+  margin: 0 50px;
+  text-align: center;
+  background: transparent;
+}
+span.question {
+  width: 595px;
+  display: inline-block;
+}
+.line.top { bottom: 26;}
+.line.top.left { bottom: 26; text-align:left; margin-left: 40px;}
+.line.middle { bottom: 13;}
+.line.bottom { bottom: 0; height: 14; }
+.line.bottom.right {bottom: 0; height: 14; text-align:right; margin-right: 40px;}
+.darkblue { color: #2254F4; }
+.mediumblue { color: #00B7FF; }
+.lightblue { color: #08DEF9; }
+.turquoise { color: #1DD3A7; }
+.darkgreen { color: #0DBC37; }
+.lightgreen { color: #67EF67; }
+.yellow { color: #F9BC26; }
+.orange { color: #FF6700; }
+.red { color: #D60303; }
+.pink { color: #EF3AAB; }
+.magenta { color: #E6007C; }
+.purple { color: #B13198; }
+.black { color: black; }

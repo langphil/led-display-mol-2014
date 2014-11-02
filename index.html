@@ -1,0 +1,369 @@
+<html>
+<head>
+<title>ODI Summit 2014 LED Display</title>
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<script type="text/javascript" src="jquery-ui-1.10.3.js"></script>
+<script type="text/javascript" src="ellipse.js"></script>
+<link rel="stylesheet" href="ellipse.css" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+<!-- weneedus: total = 20 mins = 1200s each-->
+<div class="display right" data-transition="3" data-display-at="0"><iframe id="tehart" src="http://odinprac.theodi.org/wnu/" style="width: 1200px; height: 40px; border: none;"></iframe></div>
+<!-- end = 20mins = 1200s -->
+<!-- TBL Quote: total = 3 mins = 60s each-->
+<div class="display left" data-transition="40" data-display-at="1200">
+  <div class="line top left">
+    <span class='fact red'>"The system must allow any sort of information to be entered."</span>
+  </div>
+<div class="line middle">
+  <span class='fact red'>"Another person must be able to find the information, sometimes without knowing what he is looking for."</span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'></span>  <span class='fact purple'>Sir Tim Berners Lee, 1989</span>
+</div>
+</div>
+<div class="display up" data-transition="6" data-display-at="1260"><img src="this-is-for-everyone-01.png" /></div>
+<!-- end = 23mins = 1380s -->
+<!-- mountains: total = 4 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="1380"><img src="mountains-close-crop.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="1440"><img src="mountains-clustered-x3.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="1500"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display left" data-transition="60" data-display-at="1560"><img src="mountains-scattered.png" /></div>
+<!-- end = 27mins = 1620s -->
+<!-- awards nominees: total = 15 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="1680"><img src="awards_intro.png" /></div>
+<div class="display left" data-transition="40" data-display-at="1740"><img src="nom_social.png" /></div>
+<div class="display left" data-transition="40" data-display-at="1800"><img src="social_list.png" /></div>
+<div class="display left" data-transition="40" data-display-at="1860"><img src="nom_publisher.png" /></div>
+<div class="display left" data-transition="40" data-display-at="1920"><img src="publisher_list.png" /></div>
+<div class="display left" data-transition="40" data-display-at="1980"><img src="nom_innovation.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2040"><img src="innovation_list.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2100"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2160"><img src="mountains-scattered.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2220"><img src="nom_business.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2280"><img src="business_list.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2340"><img src="nom_individual.png" /></div>
+<div class="display left" data-transition="40" data-display-at="2400"><img src="individual_list.png" /></div>
+<div class="display up" data-transition="6" data-display-at="2460"><img src="awards_intro.png" /></div>
+<!-- end = 42mins = 2520s -->
+<!-- mountains short: total = 2 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="2520">
+  <img src="mountains-close-crop.png" />
+</div>
+<div class="display downup" data-transition="3" data-display-at="2580">
+  <img src="mountains-clustered-x3.png" />
+</div>
+<!-- end = 44mins = 2580s -->
+<!-- timeline 1: total = 11:20 mins = 60s / 90s each-->
+<div class="display up" data-transition="6" data-display-at="2580">
+  <img src="let_there_be data_intro.png" />
+</div>
+<div class="display right" data-transition="40" data-display-at="2640">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">Alexandria to Domesday</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="2700">
+<div class="line top left">
+  <span class='fact darkgreen'>Library of Alexandria was established to hold early books and papyrus scrolls (c 370bc)</span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Codex overtakes the scroll, allowing for quicker access to text (2 - 4 Century) </span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>Domesday book, the first manuscript survey of England and parts of Wales (1086)</span>
+</div>
+</div>
+<div class="display right" data-transition="40" data-display-at="2790">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">Printing to Encylopedias</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="2850">
+  <div class="line top left">
+    <span class='fact lightgreen'>Johannes Gutenberg starts the printing revolution with his mechanical, movable printer (1439)</span>
+  </div>
+  <div class="line middle">
+    <span class='fact darkblue'>Punched cards controlling automated machinery or data for data processing (1725)</span>
+  </div>
+  <div class="line bottom right">
+    <span class='fact yellow'>The first edition of Encyclopaedia Britannica is published in Edinburgh (1768)</span>
+  </div>
+</div>
+<div class="display up" data-transition="3" data-display-at="2940">
+  <img src="odi-logos-blk-ground-03.png" />
+</div>
+<div class="display right" data-transition="40" data-display-at="3000">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">Jacquard loom to Photography</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="3060">
+  <div class="line top left">
+    <span class='fact darkgreen'>Joseph Marie Jacquard demonstrates his loom, which held data on punched cards (1801)</span>
+  </div>
+  <div class="line middle">
+    <span class='fact orange'>Charles Babbage makes his first difference engine, made to calculate a series of values automatically (1822)</span>
+  </div>
+  <div class="line bottom right">
+    <span class='fact magenta'>The first permanent photograph, produced through the bitumen process of Nicéphore Niépce (1822)</span>
+  </div>
+</div>
+<div class="display right" data-transition="40" data-display-at="3150">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">Alan Turing to VHS</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="3210">
+  <div class="line top left">
+    <span class='fact darkblue'>Alan Turing presents his first detailed design of a stored programme computer (1946)</span>
+  </div>
+  <div class="line middle">
+    <span class='fact darkgreen'>CERN, The world’s largest particle physics laboratory is founded, demanding powerful data processing (1954)</span>
+  </div>
+  <div class="line bottom right">
+    <span class='fact red'>The first commercially successful video tape recorder is introduced by AMPEX, costing US$50,000 (1956)</span>
+  </div>
+</div>
+<!-- end = n/a = 3300s -->
+<!-- mountains short: total = 4 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="3300"><img src="mountains-close-crop.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="3360"><img src="mountains-clustered-x3.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="3420"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display left" data-transition="60" data-display-at="3480"><img src="mountains-scattered.png" /></div>
+<!-- end = n/a = 3540s -->
+<!-- timeline 2: total = 12:50 mins = 60 / 90 s each-->
+<div class="display up" data-transition="6" data-display-at="3540"><img src="let_there_be data_intro.png" /></div>
+<div class="display right" data-transition="40" data-display-at="3600">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">Sputnik 1 to the Cassette</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="3660">
+  <div class="line top left">
+    <span class='fact mediumblue'>Sputnik 1, The first artificial earth satellite is launched into space, which transmitted radio data (1957)</span>
+  </div>
+  <div class="line middle">
+    <span class='fact purple'>Microfiche allows for printed text to be recorded in minituarised form (1961)</span>
+  </div>
+  <div class="line bottom right">
+    <span class='fact pink'>Philips invents the Compact Cassette medium for audio storage (1962)</span>
+  </div>
+</div>
+<div class="display right" data-transition="40" data-display-at="3750">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">The PC to BBC Domesday</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="3810">
+<div class="line top left">
+  <span class='fact darkgreen'>Douglas Engelbart presents the fundamental elements of modern personal computing (1968)</span>
+</div>
+<div class="line middle">
+  <span class='fact darkgreen'>Philips and Sony create Compact Discs, storing data digitally using LazerDisc technology (1982)</span>
+</div>
+<div class="line bottom right">
+  <span class='fact darkblue'>Citizens in the UK were asked to record what they thought would be of interest in another 1000 years (1986)</span>
+</div>
+</div>
+<div class="display right" data-transition="40" data-display-at="3900">
+  <span class="question">Let there be data</span>
+  <span class="question">WWW to Wikipedia</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="3960">
+<div class="line top left">
+  <span class='fact magenta'>Sir Tim Berners-Lee makes public his proposal for a large hypertext database with typed links (1989)</span>
+</div>
+<div class="line middle">
+  <span class='fact darkgreen'>A record company called SubPop is the first to distribute music tracks in the MP3 format (1999)</span>
+</div>
+<div class="line bottom right">
+  <span class='fact lightblue'>Wikipedia, the free, online encyclopedia, is formally launched (2001)</span>
+</div>
+</div>
+<div class="display right" data-transition="40" data-display-at="4050">
+  <span class="question yellow">Let there be data</span>
+  <span class="question yellow">Seed vaults to DNA storage</span>
+</div>
+<div class="display left" data-transition="40" data-display-at="4110">
+  <div class="line top left">
+    <span class='fact lightblue'>The Svalbard Global Seed Vault in Norway is established to store a wide variety of plant seeds (2006)</span>
+  </div>
+  <div class="line middle">
+    <span class='fact purple'>Iphone - The phone was not just a communication tool but a way of life. (2007)</span>
+  </div>
+  <div class="line bottom right">
+    <span class='fact darkgreen'>Initial research shows that digital data can be stored in the base sequence of DNA (2012)</span>
+  </div>
+</div>
+<div class="display up" data-transition="6" data-display-at="4200"><img src="let_there_be data_intro.png" /></div>
+<!-- end = n/a = 4290s -->
+<!-- mountains: total = 4 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="4290"><img src="mountains-close-crop.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="4350"><img src="mountains-clustered-x3.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="4410"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display left" data-transition="60" data-display-at="4470"><img src="mountains-scattered.png" /></div>
+<!-- end = 75mins = 4530s -->
+<!-- members: total = 0 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="4530">
+  <img src="100_intro.png" />
+</div>
+<div class="display left" data-transition="50" data-display-at="4590">
+<div class="line top left">
+  <span class='fact darkgreen'>BPE, eSynergy Solutions, Audience Agency, AIMES,</span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Mydex, Adobe, Blue Yonder, CoreFilling, </span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>CtrlShift, Datactics, Digi2al, Digital Integration Technology, </span>
+</div>
+</div>
+<div class="display left" data-transition="40" data-display-at="4650">
+<div class="line top left">
+  <span class='fact darkgreen'>Epimorphics, Flexeye, ImageCo, importio, </span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Javelin, Kiln, Lockheed Martin, MarkLogic, MastodonC, </span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>NTT DATA, OnepointIQ, Rackspace, SamKnows, </span>
+</div>
+</div>
+<div class="display left" data-transition="40" data-display-at="4710">
+<div class="line top left">
+  <span class='fact darkgreen'>ScraperWiki, Sibdocity, Software for Data Analysis,</span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Sirius Corporation, Swirll, Telefonica, Server Labs, </span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>White October, Whythawk, Zizo, Aida Technology,</span>
+</div>
+</div>
+<div class="display left" data-transition="40" data-display-at="4770">
+<div class="line top left">
+  <span class='fact darkgreen'>RM Education, Retail Money Market, GeoLytix, Doorda, </span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Flying Binary, Lokku, Yelp, Bright Blue Campaign, </span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>UKGBC, Building Research Establishment, Costain, </span>
+</div>
+</div>
+<div class="display up" data-transition="6" data-display-at="4830">
+  <img src="100_intro.png" />
+</div>
+<div class="display left" data-transition="40" data-display-at="4890">
+<div class="line top left">
+  <span class='fact darkgreen'>Oasis Loss Modelling, 100%Open, 21c Consultancy, Aistemos, </span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Arup, BearingPoint, Computing Distrubtion Group, Cogent Analytics,</span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>Dialogue by Design, OCSI, Precise Media, Systems in Context, </span>
+</div>
+</div>
+<div class="display left" data-transition="40" data-display-at="4950">
+<div class="line top left">
+  <span class='fact darkgreen'>theblueballroom, Thomson Reuters, Thwaits Communications, Transactis,</span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>RSS, Science and Technology Facilities Council, Amey, Aplana Software,</span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>Balefire Global, Ontotext, Redlink, Snips</span>
+</div>
+</div>
+<div class="display left" data-transition="40" data-display-at="5010">
+<div class="line top left">
+  <span class='fact darkgreen'>Socrata, Citadel on the move, Met Office, Manchester Business School,</span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>City of Edinburgh Council, Horizon, Kings College London, </span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>London Business School, Queen Mary University, University of Southampton</span>
+</div>
+</div>
+<div class="display left" data-transition="40" data-display-at="5070">
+<div class="line top left">
+  <span class='fact darkgreen'>IRICSS, LiST, Matrix Knowledge Group, Experian</span>
+</div>
+<div class="line middle">
+  <span class='fact pink'>Taipei Computer Association, License Direct, Model Futures</span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'>MoneySupermaket, Association of Conveinence Stores</span>
+</div>
+</div>
+<div class="display up" data-transition="6" data-display-at="5130">
+  <img src="100_intro.png" />
+</div>
+<!-- end = 0mins = 5190s -->
+<!-- mountains: total = 4 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="5250"><img src="mountains-close-crop.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="5310"><img src="mountains-clustered-x3.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="5370"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display left" data-transition="60" data-display-at="5430"><img src="mountains-scattered.png" /></div>
+<!-- end = 75mins = 5490 -->
+<!-- winners: total = 15 mins = 60s each-->
+<div class="display up" data-transition="6" data-display-at="5550"><img src="awards_intro.png" /></div>
+<div class="display left" data-transition="40" data-display-at="5610"><img src="win_social-01.png" /></div>
+<div class="display up" data-transition="40" data-display-at="5660"><img src="win_plantwise-01.png" /></div>
+<div class="display left" data-transition="40" data-display-at="5720"><img src="win_publisher-01.png" /></div>
+<div class="display up" data-transition="40" data-display-at="5780"><img src="win_wiki-01.png" /></div>
+<div class="display left" data-transition="40" data-display-at="5840"><img src="win_innovation-01.png" /></div>
+<div class="display up" data-transition="40" data-display-at="5900"><img src="win_shoothill-01.png" /></div>
+<div class="display left" data-transition="40" data-display-at="5960"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display up" data-transition="40" data-display-at="6040"><img src="mountains-scattered.png" /></div>
+<div class="display left" data-transition="40" data-display-at="6100"><img src="win_business.png" /></div>
+<div class="display up" data-transition="40" data-display-at="6160"><img src="win_geolytix.png" /></div>
+<div class="display left" data-transition="40" data-display-at="6220"><img src="win_individual-01.png" /></div>
+<div class="display up" data-transition="40" data-display-at="6280"><img src="win_irina-01.png" /></div>
+<div class="display left" data-transition="6" data-display-at="6340"><img src="awards_intro.png" /></div>
+<!-- end = 87mins = 6400s -->
+<!-- Mountains short: total = 2 mins = 60s each-->
+<div class="display downup" data-transition="3" data-display-at="6400"><img src="mountains-with-odi-logos.png" /></div>
+<div class="display left" data-transition="60" data-display-at="6460"><img src="mountains-scattered.png" /></div>
+<!-- end = 0mins = 6520s -->
+<!-- Tim quote: total = 0 mins = 60 / 90s each-->
+<div class="display left" data-transition="40" data-display-at="6520">
+  <div class="line top left">
+    <span class='fact red'>"I believe we can build a Web that truly is for everyone: one that is accessible to all, from any device,</span>
+  </div>
+<div class="line middle">
+  <span class='fact red'>and one that empowers all of us to achieve our dignity, rights and potential as humans."</span>
+</div>
+<div class="line bottom right">
+  <span class='fact mediumblue'></span>  <span class='fact purple'>Sir Tim Berners Lee, 2014</span>
+</div>
+<div class="display up" data-transition="6" data-display-at="6640"><img src="mountains-close-crop.png" /></div>
+<div class="display fade" data-transition="5" data-display-at="6700"><img src="mountains-knowledge-for-everyone.png" /></div>
+<!-- end = 0mins = 6880s -->
+<!-- nodes: total = 18 mins = 60s each-->
+<div class="display up" data-transition="3" data-display-at="6880"><img src="node-chicago.png" /></div>
+<div class="display up" data-transition="3" data-display-at="6940"><img src="node-brighton.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7000"><img src="node-dubai.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7060"><img src="node-leeds.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7120"><img src="odi-logos-blue-on-green.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7180"><img src="node-paris.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7240"><img src="node-canada.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7300"><img src="node-trento.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7360"><img src="odi-logos-blk-ground-04.png" /></div>
+<div class="display downup" data-transition="3" data-display-at="7420"><img src="node-argentina.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7480"><img src="node-moscow.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7540"><img src="node-manchester.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7600"><img src="odi-logos-green-on-blue.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7660"><img src="node-gothenburg.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7720"><img src="node-gold-coast.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7780"><img src="node-north-carolina.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7840"><img src="node-usa.png" /></div>
+<div class="display up" data-transition="3" data-display-at="7900"><img src="odi-logos-blk-ground-03.png" /></div>
+<!-- end = 132mins = 7960s -->
+<!-- This is for everyone: total = 10 mins = 600s each-->
+<div class="display up" data-transition="6" data-display-at="7960"><img src="this-is-for-everyone-01.png" /></div>
+<!-- end = 142mins = 00s -->
+
+<!--reset--> 
+
+</div>
+</body>
+</html>
